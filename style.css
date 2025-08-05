@@ -47,14 +47,10 @@ button{
     transition: all 0.2s ease;
 }
 
-button:hover {
-    transform: scale(1.05);
-}
-
 
 #expression{
-    font-size: 0.9rem;
-    color: rgba(255, 255, 255, 0.7);
+    font-size: 1rem;
+    color: white;
     text-align: right;
     margin-bottom: 5px;
 }
@@ -68,28 +64,30 @@ button:hover {
 }
 
 .button-light{
-    background-color: #a6a6a6;
+    /* background-color: #a6a6a6; */
+    background-color: #00c5cc;
     color: black;
 }
 
 .button-light:hover{
-    background-color: #8a8a8a;
+    background-color: #3178b9;
 }
 
 .button-dark{
-    background-color: #333333;
-    color: white;
+    /* background-color: #333333; */
+    background-color: #ffebcd;
+    color: rgb(2, 2, 2);
 }
 
 .button-dark:hover{
-    background-color: #1a1a1a;
+    background-color: rgb(241, 192, 118);
 }
 
 .button-blue{
-    background-color: #ff9500;
+    background-color: #1031eb;
     color: white;
 }
 
 .button-blue:hover{
-    background-color: #cc7700;
+    background-color: #457bf0;
 }
